@@ -18,17 +18,17 @@ get_header(); ?>
 				<h1 class="page-title">
 					<?php
 						if ( is_category() ) :
-							printf( __( 'Category Archives: %s', 'wpanniversary' ), '<span>' . single_cat_title( '', false ) . '</span>' );
+							printf( __( 'Category Archives: %s', 'wparmchair' ), '<span>' . single_cat_title( '', false ) . '</span>' );
 
 						elseif ( is_tag() ) :
-							printf( __( 'Tag Archives: %s', 'wpanniversary' ), '<span>' . single_tag_title( '', false ) . '</span>' );
+							printf( __( 'Tag Archives: %s', 'wparmchair' ), '<span>' . single_tag_title( '', false ) . '</span>' );
 
 						elseif ( is_author() ) :
 							/* Queue the first post, that way we know
 							 * what author we're dealing with (if that is the case).
 							*/
 							the_post();
-							printf( __( 'Author Archives: %s', 'wpanniversary' ), '<span class="vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '" title="' . esc_attr( get_the_author() ) . '" rel="me">' . get_the_author() . '</a></span>' );
+							printf( __( 'Author Archives: %s', 'wparmchair' ), '<span class="vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '" title="' . esc_attr( get_the_author() ) . '" rel="me">' . get_the_author() . '</a></span>' );
 							/* Since we called the_post() above, we need to
 							 * rewind the loop back to the beginning that way
 							 * we can run the loop properly, in full.
@@ -36,31 +36,31 @@ get_header(); ?>
 							rewind_posts();
 
 						elseif ( is_day() ) :
-							printf( __( 'Daily Archives: %s', 'wpanniversary' ), '<span>' . get_the_date() . '</span>' );
+							printf( __( 'Daily Archives: %s', 'wparmchair' ), '<span>' . get_the_date() . '</span>' );
 
 						elseif ( is_month() ) :
-							printf( __( 'Monthly Archives: %s', 'wpanniversary' ), '<span>' . get_the_date( 'F Y' ) . '</span>' );
+							printf( __( 'Monthly Archives: %s', 'wparmchair' ), '<span>' . get_the_date( 'F Y' ) . '</span>' );
 
 						elseif ( is_year() ) :
-							printf( __( 'Yearly Archives: %s', 'wpanniversary' ), '<span>' . get_the_date( 'Y' ) . '</span>' );
+							printf( __( 'Yearly Archives: %s', 'wparmchair' ), '<span>' . get_the_date( 'Y' ) . '</span>' );
 
 						elseif ( is_tax( 'post_format', 'post-format-aside' ) ) :
-							_e( 'Asides', 'wpanniversary' );
+							_e( 'Asides', 'wparmchair' );
 
 						elseif ( is_tax( 'post_format', 'post-format-image' ) ) :
-							_e( 'Images', 'wpanniversary');
+							_e( 'Images', 'wparmchair');
 
 						elseif ( is_tax( 'post_format', 'post-format-video' ) ) :
-							_e( 'Videos', 'wpanniversary' );
+							_e( 'Videos', 'wparmchair' );
 
 						elseif ( is_tax( 'post_format', 'post-format-quote' ) ) :
-							_e( 'Quotes', 'wpanniversary' );
+							_e( 'Quotes', 'wparmchair' );
 
 						elseif ( is_tax( 'post_format', 'post-format-link' ) ) :
-							_e( 'Links', 'wpanniversary' );
+							_e( 'Links', 'wparmchair' );
 
 						else :
-							_e( 'Archives', 'wpanniversary' );
+							_e( 'Archives', 'wparmchair' );
 
 						endif;
 					?>

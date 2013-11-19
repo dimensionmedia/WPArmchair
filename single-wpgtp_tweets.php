@@ -18,7 +18,7 @@ get_header(); ?>
 
 		    	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		    	
-    				<?php edit_post_link( __( 'Edit', 'wpanniversary' ), '<span class="edit-link">', '</span>' ); ?>
+    				<?php edit_post_link( __( 'Edit', 'wparmchair' ), '<span class="edit-link">', '</span>' ); ?>
 		    	
 		    		<?php wpann_process_post_display ( $post ); ?>
 		    		

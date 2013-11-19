@@ -16,7 +16,7 @@ get_header(); ?>
 				<div id="primary" class="content-area">
 					<div id="content" class="site-content" role="main">
 			
-						<h1 class="entry-title"><?php _e( "The page you were looking for could not be found. It’s not your fault... most likely.", "wpanniversary" ); ?></h1>
+						<h1 class="entry-title"><?php _e( "The page you were looking for could not be found. It’s not your fault... most likely.", "wparmchair" ); ?></h1>
 			
 					</div><!-- #content -->
 				</div><!-- #primary -->
