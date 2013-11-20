@@ -17,7 +17,7 @@
       	<?php if ( get_theme_mod('misc_twitter_username') ) { ?>
         <p>Follow <a href="http://twitter.com/<?php echo get_theme_mod('misc_twitter_username') ; ?>">@<?php echo get_theme_mod('misc_twitter_username') ; ?></a> on Twitter.</p>
         <?php } ?>
-        <p>Made With <a href="http://wordpress.org">WordPress</a>.</p>
+        <p><?php _e( 'Made With', 'wparmchair' ); ?> <a href="http://wordpress.org">WordPress</a>.</p>
       </div>
     </div>
 

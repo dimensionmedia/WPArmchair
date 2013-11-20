@@ -1,0 +1,804 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPArmchair v0.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-19 18:08-0300\n"
+"PO-Revision-Date: 2013-11-19 18:11-0300\n"
+"Last-Translator: Rafael Funchal <rafaelfunchal@gmail.com>\n"
+"Language-Team: Rafael Funchal <rafaelfunchal@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Language: pt_BR\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ wparmchair
+#: 404.php:19
+msgid ""
+"The page you were looking for could not be found. It’s not your fault... "
+"most likely."
+msgstr ""
+"A página que você estava procurando não pode ser encontrada. Isso não é sua "
+"culpa ... na maioria das vezes."
+
+# @ wparmchair
+#: archive.php:21
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Arquivo da Categoria: %s"
+
+# @ wparmchair
+#: archive.php:24
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Arquivo da Tag: %s"
+
+# @ wparmchair
+#: archive.php:31
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Arquivo do Autor: %s"
+
+# @ wparmchair
+#: archive.php:39
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Arquivo Diário: %s"
+
+# @ wparmchair
+#: archive.php:42
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Arquivo Mensal: %s"
+
+# @ wparmchair
+#: archive.php:45
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Arquivo Anual: %s"
+
+# @ wparmchair
+#: archive.php:48
+msgid "Asides"
+msgstr "Asides"
+
+# @ wparmchair
+#: archive.php:51
+msgid "Images"
+msgstr "Imagens"
+
+# @ wparmchair
+#: archive.php:54
+msgid "Videos"
+msgstr "Vídeos"
+
+# @ wparmchair
+#: archive.php:57
+msgid "Quotes"
+msgstr "Citações"
+
+# @ wparmchair
+#: archive.php:60
+msgid "Links"
+msgstr "Links"
+
+# @ wparmchair
+#: archive.php:63 sidebar.php:17
+msgid "Archives"
+msgstr "Arquivos"
+
+# @ wparmchair
+#: comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Um comentário em &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s comentários em &ldquo;%2$s&rdquo;"
+
+# @ wparmchair
+#: comments.php:36 comments.php:56
+msgid "Comment navigation"
+msgstr "Navegação dos Comentários"
+
+# @ wparmchair
+#: comments.php:37 comments.php:57
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentários antigos"
+
+# @ wparmchair
+#: comments.php:38 comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr "Comentários recentes &rarr;"
+
+# @ wparmchair
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Comentários não permitidos."
+
+# @ wparmchair
+#: content-flickrs.php:45 content-instagrams.php:46 functions.php:419
+#: functions.php:516 functions.php:580 functions.php:629
+msgid "Posted on"
+msgstr "Publicado em"
+
+# @ wparmchair
+#: content-flickrs.php:45 content-instagrams.php:46 functions.php:419
+#: functions.php:516 functions.php:580 functions.php:629
+msgid "by"
+msgstr "por"
+
+# @ wparmchair
+#: content-flickrs.php:51 content-instagrams.php:52 content-page.php:18
+#: content-single.php:20 content-tweets.php:68 content.php:27 image.php:95
+msgid "Pages:"
+msgstr "Páginas:"
+
+# @ wparmchair
+#. translators: used between list items, there is a space after the comma
+#: content-flickrs.php:60 content-flickrs.php:63 content-instagrams.php:61
+#: content-instagrams.php:64 content-single.php:29 content-single.php:32
+#: content-tweets.php:77 content-tweets.php:80 content.php:38 content.php:48
+msgid ", "
+msgstr ","
+
+# @ wparmchair
+#: content-flickrs.php:92 content-instagrams.php:93 content-page.php:23
+#: content-single.php:61 content-tweets.php:109 content.php:63
+#: functions.php:428 functions.php:530 functions.php:637 image.php:34
+#: image.php:112 inc/template-tags.php:71 inc/template-tags.php:92
+#: single-wpgtp_tweets.php:21
+msgid "Edit"
+msgstr "Editar"
+
+# @ wparmchair
+#: content.php:24
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continue lendo <span class=\"meta-nav\">&rarr;</span>"
+
+# @ wparmchair
+#: content.php:42
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Publicado em %1$s"
+
+# @ wparmchair
+#: content.php:53
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Marcado como %1$s"
+
+# @ wparmchair
+#: content.php:60
+msgid "Leave a comment"
+msgstr "Deixe um comentário"
+
+# @ wparmchair
+#: content.php:60
+msgid "1 Comment"
+msgstr "1 comentário"
+
+# @ wparmchair
+#: content.php:60
+msgid "% Comments"
+msgstr "% comentários"
+
+# @ wparmchair
+#: footer.php:20
+msgid "Made With"
+msgstr "Feito com"
+
+# @ default
+#: functions.php:71
+msgid "Featured"
+msgstr "Destacado"
+
+# @ wparmchair
+#: functions.php:781
+msgid "Primary Menu"
+msgstr "Menu Primário"
+
+# @ wparmchair
+#: functions.php:856
+msgid "Sidebar"
+msgstr "Sidebar"
+
+# @ wparmchair
+#: home.php:52
+msgid "Visit Official Site "
+msgstr "Visite o Site Oficial "
+
+# @ wparmchair
+#: home.php:163
+msgid "Photos"
+msgstr "Fotos"
+
+# @ wparmchair
+#: home.php:164
+#, php-format
+msgid ""
+"Post a public picture to <i class=\"icon-camera-retro\"></i> Instagram, <i "
+"class=\"icon-twitter\"></i> Twitter, or <i class=\"icon-camera\"></i> Flickr "
+"&amp; tag it <strong>%1$s</strong>."
+msgstr ""
+"Publique uma foto pública no <i class=\"icon-camera-retro\"></i> Instagram, "
+"<i class=\"icon-twitter\"></i> Twitter, ou <i class=\"icon-camera\"></i> "
+"Flickr e marque-a com <strong>%1$s</strong>."
+
+# @ wparmchair
+#: home.php:170
+msgid "Tweets"
+msgstr "Tweets"
+
+# @ wparmchair
+#: home.php:171
+#, php-format
+msgid ""
+"Use the hashtag <strong>%1$s</strong> on <i class=\"icon-twitter\"></i> "
+"Twitter and we'll grab your tweets."
+msgstr ""
+"Use a hashtag <strong>%1$s</strong> no <i class=\"icon-twitter\"></i> "
+"Twitter e nós leremos seus tweets."
+
+# @ wparmchair
+#: home.php:177
+msgid "Video"
+msgstr "Vídeo"
+
+# @ wparmchair
+#: home.php:178
+#, php-format
+msgid ""
+"Share your <i class=\"icon-twitter\"></i> Vine &amp; <i class=\"icon-camera-"
+"retro\"></i> Instagram videos with the hashtag <strong>%1$s</strong>."
+msgstr ""
+"Compartilhe seus vídeos do <i class=\"icon-twitter\"></i> Vine e <i class="
+"\"icon-camera-retro\"></i> Instagram com a hashtag <strong>%1$s</strong>."
+
+# @ wparmchair
+#: home.php:184
+msgid "Submit"
+msgstr "Enviar"
+
+# @ wparmchair
+#: home.php:185
+#, php-format
+msgid ""
+"Submit your own photos directly via the <a href=\"%1$s\">WordPress mobile "
+"app</a>."
+msgstr ""
+"Envie suas próprias fotos diretamente via <a href=\"%1$s\">aplicativo para "
+"mobile do WordPress</a>."
+
+# @ wparmchair
+#: home.php:191
+msgid "Love"
+msgstr "Curtir"
+
+# @ wparmchair
+#: home.php:192
+msgid ""
+"Love your favorite posts by clicking on <i class=\"icon-heart-empty\"></i>. "
+"Most loved posters might get a treat."
+msgstr ""
+"Curta seus posts favoritos clicando em <i class=\"icon-heart-empty\"></i>. "
+"Os post mais curtidos podem ganhar algo."
+
+# @ wparmchair
+#: home.php:215
+msgid "Just chilling out for a few seconds."
+msgstr "Apenas relaxando por alguns segundos."
+
+# @ wparmchair
+#: home.php:218
+msgid "Why not go "
+msgstr "Por que não ir "
+
+# @ wparmchair
+#: home.php:218
+msgid "fullscreen "
+msgstr "tela cheia "
+
+# @ wparmchair
+#: home.php:218
+msgid "or "
+msgstr "ou "
+
+# @ wparmchair
+#: home.php:222
+msgid "view only photos "
+msgstr "ver apenas fotos "
+
+# @ wparmchair
+#: home.php:226
+msgid "see everything "
+msgstr "ver tudo "
+
+# @ wparmchair
+# @ default
+#: home.php:240 page-leaderboard.php:290 search.php:195 single.php:34
+msgid "Sorry, no media posts exist."
+msgstr "Desculpe-nos, nenhum post com mídias ainda."
+
+# @ wparmchair
+#: home.php:257
+msgid "Load More "
+msgstr "Carregar Mais "
+
+# @ wparmchair
+#: image.php:23
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size "
+"image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" "
+"rel=\"gallery\">%8$s</a>"
+msgstr ""
+"Publicado <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> as <a href=\"%3$s\" title=\"Link para a imagem "
+"original\">%4$s &times; %5$s</a> em <a href=\"%6$s\" title=\"Voltar para %7$s"
+"\" rel=\"gallery\">%8$s</a>"
+
+# @ wparmchair
+#: image.php:38
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Anterior"
+
+# @ wparmchair
+#: image.php:39
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Próximo<span class=\"meta-nav\">&rarr;</span>"
+
+# @ wparmchair
+#: image.php:104
+#, php-format
+msgid ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
+"comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Deixe um comentário"
+"\">Deixe um comentário</a> ou uma referência: <a class=\"trackback-link\" "
+"href=\"%s\" title=\"URL de referência para o seu post\" rel=\"trackback"
+"\">URL de Referência</a>."
+
+# @ wparmchair
+#: image.php:106
+#, php-format
+msgid ""
+"Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+"\">Trackback URL</a>."
+msgstr ""
+"Comentários não são permitidos, mas você pode fazer uma referência: <a class="
+"\"trackback-link\" href=\"%s\" title=\"URL de Referência para o seu post\" "
+"rel=\"trackback\">URL de Referência</a>."
+
+# @ wparmchair
+#: image.php:108
+msgid ""
+"Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
+"\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+"Referências não são permitidas, mas você pode <a class=\"comment-link\" href="
+"\"#respond\" title=\"Deixar um comentário\">deixar um comentário</a>."
+
+# @ wparmchair
+#: image.php:110
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Comentários e referências não são permitidos no momento."
+
+# @ wparmchair
+#: no-results.php:13
+msgid "Nothing Found"
+msgstr "Nada Encontrado"
+
+# @ wparmchair
+#: no-results.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Pronto para o seu primeiro post? <a href=\"%1$s\">Comece por aqui</a>."
+
+# @ wparmchair
+#: no-results.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Desculpe-nos, mas não encontramos nada com esse termo. Por favor, tente "
+"novamente com palavras diferentes."
+
+# @ wparmchair
+#: no-results.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Parece que não encontramos o que você está procurando. Talvez uma pesquisa "
+"possa ajudar."
+
+# @ wparmchair
+#: searchform.php:9
+msgctxt "assistive text"
+msgid "Search"
+msgstr "Pesquisar"
+
+# @ wparmchair
+#: sidebar.php:24
+msgid "Meta"
+msgstr "Meta"
+
+# @ default
+#: single-wpgtp_tweets.php:38
+msgid "Sorry, nothing here."
+msgstr "Desculpe-nos, não há nada aqui."
+
+# @ wparmchair
+#: inc/customizer.php:34
+msgid "Top Navigation Menu"
+msgstr "Menu de Navegação do Topo"
+
+# @ wparmchair
+#: inc/customizer.php:39 inc/customizer.php:85 inc/customizer.php:127
+msgid "Background Color"
+msgstr "Cor de Fundo"
+
+# @ wparmchair
+#: inc/customizer.php:45
+msgid "Active Text Color"
+msgstr "Cor do Texto Ativo"
+
+# @ wparmchair
+#: inc/customizer.php:51
+msgid "Text Color"
+msgstr "Cor do Texto"
+
+# @ wparmchair
+#: inc/customizer.php:80
+msgid "Top Header"
+msgstr "Cabeçalho"
+
+# @ wparmchair
+#: inc/customizer.php:91
+msgid "Header Text"
+msgstr "Texto do Cabeçalho"
+
+# @ wparmchair
+#: inc/customizer.php:97
+msgid "Button Background Color"
+msgstr "Cor do Fundo do Botão"
+
+# @ wparmchair
+#: inc/customizer.php:103
+msgid "Button Text Color"
+msgstr "Cor do Texto do Botão"
+
+# @ wparmchair
+#: inc/customizer.php:109
+msgid "Button Border Color"
+msgstr "Cor da Borda do Botão"
+
+# @ wparmchair
+#: inc/customizer.php:122
+msgid "Background"
+msgstr "Fundo"
+
+# @ wparmchair
+#: inc/customizer.php:148
+msgid "Text &amp; Links"
+msgstr "Texto &amp; Links"
+
+# @ wparmchair
+#: inc/customizer.php:152
+msgid "Primary Text Color"
+msgstr "Cor Primária do Texto"
+
+# @ wparmchair
+#: inc/customizer.php:157
+msgid "Status Text Color"
+msgstr "Cor do Texto do Status"
+
+# @ wparmchair
+#: inc/customizer.php:162
+msgid "Primary Link Color"
+msgstr "Cor Primária do Link"
+
+# @ wparmchair
+#: inc/customizer.php:187
+msgid "Panels"
+msgstr "Painéis"
+
+# @ wparmchair
+#: inc/customizer.php:193
+msgid "Panel Background Color"
+msgstr "Cor do Fundo do Painel"
+
+# @ wparmchair
+#: inc/customizer.php:199
+msgid "Panel Text Color"
+msgstr "Cor do Texto do Painel"
+
+# @ wparmchair
+#: inc/customizer.php:205
+msgid "Panel Dots Color"
+msgstr "Cor dos Pontos do Painel"
+
+# @ wparmchair
+#: inc/customizer.php:211
+msgid "Metadata Link Color"
+msgstr "Cor do Link de Metadados"
+
+# @ wparmchair
+#: inc/customizer.php:232
+msgid "Footer"
+msgstr "Rodapé"
+
+# @ wparmchair
+#: inc/customizer.php:238
+msgid "Footer Background Color"
+msgstr "Cor do Fundo do Rodapé"
+
+# @ wparmchair
+#: inc/customizer.php:243
+msgid "Footer Text Color"
+msgstr "Cor do Texto do Rodapé"
+
+# @ wparmchair
+#: inc/customizer.php:248
+msgid "Footer Link Color"
+msgstr "Cor do Link do Rodapé"
+
+# @ wparmchair
+#: inc/customizer.php:266
+msgid "Misc (Hashtags/Social)"
+msgstr "Vários (Hashtags/Social)"
+
+# @ wparmchair
+#: inc/customizer.php:272
+msgid "Hashtag (include #)"
+msgstr "Hashtag (incluir #)"
+
+# @ wparmchair
+#: inc/customizer.php:277
+msgid "Official Twitter Username"
+msgstr "Usuário Oficial do Twitter"
+
+# @ wparmchair
+#: inc/customizer.php:299
+msgid "Timeline"
+msgstr "Linha do Tempo"
+
+# @ wparmchair
+#: inc/customizer.php:305
+msgid "Show Timeline On Homepage (See README file)"
+msgstr "Exibir Linha do Tempo na Página Inicial (leia o arquivo README)"
+
+# @ wparmchair
+#: inc/customizer.php:315
+msgid "Start Date of Time (MUST BE IN YYYY-MM-DD)"
+msgstr "Data Inicial (OBRIGATORIAMENTE YYYY-MM-DD))"
+
+# @ wparmchair
+#: inc/customizer.php:320
+msgid "End Date of Time (MUST BE IN YYYY-MM-DD)"
+msgstr "Data Final (OBRIGATORIAMENTE YYYY-MM-DD))"
+
+# @ wparmchair
+#: inc/extras.php:66
+#, php-format
+msgid "Page %s"
+msgstr "Página %s"
+
+# @ wparmchair
+#: inc/template-tags.php:34
+msgid "Post navigation"
+msgstr "Navegação dos Posts"
+
+# @ wparmchair
+#: inc/template-tags.php:38
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+# @ wparmchair
+#: inc/template-tags.php:39
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+# @ wparmchair
+#: inc/template-tags.php:44
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Posts antigos"
+
+# @ wparmchair
+#: inc/template-tags.php:48
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Posts recentes <span class=\"meta-nav\">&rarr;</span>"
+
+# @ wparmchair
+#: inc/template-tags.php:71
+msgid "Pingback:"
+msgstr "Referência:"
+
+# @ wparmchair
+#: inc/template-tags.php:81
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">disse:</span>"
+
+# @ wparmchair
+#: inc/template-tags.php:84
+msgid "Your comment is awaiting moderation."
+msgstr "Seu comentário está aguardando moderação."
+
+# @ wparmchair
+#: inc/template-tags.php:90
+#, php-format
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s as %2$s"
+
+# @ wparmchair
+#: inc/template-tags.php:119
+#, php-format
+msgid ""
+"Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class="
+"\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by "
+"<span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s"
+"\" rel=\"author\">%7$s</a></span></span>"
+msgstr ""
+"Publicado em <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class="
+"\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> por "
+"<span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s"
+"\" rel=\"author\">%7$s</a></span></span>"
+
+# @ wparmchair
+#: inc/template-tags.php:125
+#, php-format
+msgid "View all posts by %s"
+msgstr "Ver todos os posts por %s"
+
+# @ default
+#: inc/functions/user-submitted-photos.php:8
+#: inc/functions/user-submitted-photos.php:19
+msgctxt "faq"
+msgid "User Submitted Posts"
+msgstr "Posts Enviados pelo Usuário"
+
+# @ default
+#: inc/functions/user-submitted-photos.php:9
+msgctxt "faq"
+msgid "User Submitted Post"
+msgstr "Post Enviados pelo Usuário"
+
+# @ default
+#: inc/functions/user-submitted-photos.php:10
+msgctxt "faq"
+msgid "Add New"
+msgstr "Adicionar Novo"
+
+# @ default
+#: inc/functions/user-submitted-photos.php:11
+msgctxt "faq"
+msgid "Add New User Submitted Post"
+msgstr "Adicionar Novo Post Enviado pelo Usuário"
+
+# @ default
+#: inc/functions/user-submitted-photos.php:12
+msgctxt "faq"
+msgid "Edit User Submitted Post"
+msgstr "Editar Post Enviado pelo Usuário"
+
+# @ default
+#: inc/functions/user-submitted-photos.php:13
+msgctxt "faq"
+msgid "New User Submitted Post"
+msgstr "Novo Post Enviado pelo Usuário"
+
+# @ default
+#: inc/functions/user-submitted-photos.php:14
+msgctxt "faq"
+msgid "View User Submitted Post"
+msgstr "Ver Post Enviado pelo Usuário"
+
+# @ default
+#: inc/functions/user-submitted-photos.php:15
+msgctxt "faq"
+msgid "Search User Submitted Posts"
+msgstr "Pesquisar Posts Enviados pelo Usuário"
+
+# @ default
+#: inc/functions/user-submitted-photos.php:16
+msgctxt "faq"
+msgid "No User Submitted Posts found"
+msgstr "Nenhum Post Enviado pelo Usuário"
+
+# @ default
+#: inc/functions/user-submitted-photos.php:17
+msgctxt "faq"
+msgid "No User Submitted Posts found in Trash"
+msgstr "Nenhum Post Enviado pelo Usuário na Lixeira"
+
+# @ default
+#: inc/functions/user-submitted-photos.php:18
+msgctxt "faq"
+msgid "Parent User Submitted Post:"
+msgstr "Post Pai Enviado pelo Usuário"
+
+# @ default
+#: inc/functions/user-submitted-photos.php:143
+msgctxt "taxonomy general name"
+msgid "Submission Types"
+msgstr "Tipos de Envio"
+
+# @ default
+#: inc/functions/user-submitted-photos.php:144
+msgctxt "taxonomy singular name"
+msgid "Submission Types"
+msgstr "Tipos de Envio"
+
+# @ default
+#: inc/functions/user-submitted-photos.php:145
+msgid "Search Submission Types"
+msgstr "Pesquisar Tipos de Envio"
+
+# @ default
+#: inc/functions/user-submitted-photos.php:146
+msgid "All Submission Types"
+msgstr "Todos os Tipos de Envio"
+
+# @ default
+#: inc/functions/user-submitted-photos.php:147
+msgid "Parent Submission Type"
+msgstr "Tipo de Envio Pai"
+
+# @ default
+#: inc/functions/user-submitted-photos.php:148
+msgid "Parent Submission Type:"
+msgstr "Tipo de Envio Pai:"
+
+# @ default
+#: inc/functions/user-submitted-photos.php:149
+msgid "Edit Submission Type"
+msgstr "Editar Tipo de Envio"
+
+# @ default
+#: inc/functions/user-submitted-photos.php:150
+msgid "Update Submission Type"
+msgstr "Atualizar Tipo de Envio"
+
+# @ default
+#: inc/functions/user-submitted-photos.php:151
+msgid "Add New Submission Type"
+msgstr "Adicionar Novo Tipo de Envio"
+
+# @ default
+#: inc/functions/user-submitted-photos.php:152
+msgid "New Submission Type Name"
+msgstr "Nome do Novo Tipo de Envio"
+
+# @ default
+#: inc/functions/user-submitted-photos.php:153
+msgid "Submission Types"
+msgstr "Tipos de Envio"
+
+# @ wparmchair
+#: searchform.php:10
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Pesquisar &hellip;"
+
+# @ wparmchair
+#: searchform.php:11
+msgctxt "submit button"
+msgid "Search"
+msgstr "Pesquisar"
