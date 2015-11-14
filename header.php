@@ -24,14 +24,14 @@
 				<nav role="navigation" class="main-navigation" id="site-navigation">
 					<div class="menu-main-menu-container">
 						<ul class="nav-menu" id="menu-main-menu">
-							<li class="menu-item<?php if( is_home() ) echo ' current_page_item'; ?>"><a href="<?php echo home_url(); ?>">Live</a>
-							<li class="menu-item"><a href="<?php echo home_url('how-to-submit-photos'); ?>">Upload!</a></li>
-							<li class="menu-item logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/wordcamp_2013_logo-small.png" alt="<?php bloginfo( 'name' ); ?>" width="40" height="40" /></a></li>
+							<li class="menu-item<?php if( is_home() ) echo ' current_page_item'; ?>"><a href="<?php echo esc_url( home_url(); ?>">Live</a>
+							<li class="menu-item"><a href="<?php echo esc_url( home_url('how-to-submit-photos') ); ?>">Upload!</a></li>
+							<li class="menu-item logo"><a href="<?php echo esc_url( home_url() ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/wordcamp_2013_logo-small.png" alt="<?php bloginfo( 'name' ); ?>" width="40" height="40" /></a></li>
 							<?php if ( !is_user_logged_in() ) : ?>
-								<li class="menu-item"><a href="<?php echo home_url( 'register' ); ?>">Register</a> / <a href="<?php echo wp_login_url( home_url('upload-photo') ); ?>">Log In</a></li>
+								<li class="menu-item"><a href="<?php echo esc_url( home_url( 'register' ) ); ?>">Register</a> / <a href="<?php echo wp_login_url( home_url('upload-photo') ); ?>">Log In</a></li>
 							<?php else: $current_user = wp_get_current_user(); ?>
-								<li class="menu-item"><a href="<?php echo home_url('submit-photo'); ?>">Upload Photo</a></li>
-								<li class="menu-item"><a href="<?php echo wp_logout_url(); ?>">Log Out</a></li>
+								<li class="menu-item"><a href="<?php echo esc_url( home_url('submit-photo') ); ?>">Upload Photo</a></li>
+								<li class="menu-item"><a href="<?php echo esc_url( wp_logout_url() ); ?>">Log Out</a></li>
 							<?php endif; ?>
 						</ul>
 					</div>		
